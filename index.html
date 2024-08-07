@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter - Project</title>
+    
+</head>
+<body>
+
+<section class="Counter">
+    <!-- title  -->
+    <div class="counterTitle">
+        <h1>Counter</h1>
+    </div>
+
+    <!-- display section  -->
+    <div class="counterDisplay">
+        <h2 id="counterDisplay">0</h2>
+    
+    </div>
+
+    <!-- buttons section  -->
+    <div class="counterButtons">
+        <div class="powerButtons" id="powerButtons">
+            <button id="powerBtn" class="powerOn" onclick="powerBtn()">ON</button>
+            <button id="reset" class="reset" onclick="reset()">reset</button>
+            </div>
+            <div class="countButtons " id="countButtons">
+                <div class="decrease btns">
+                    <button id="decrease" class="countBtn" onclick="decreament()">-</button>
+                        <span>Decrease</span>
+                </div>
+
+                <div class="increase btns">
+                    <button id="increase" class="countBtn" onclick="Increament()">+</button>
+                    <span>Increase</span>
+                </div>
+               
+            </div>
+            </div>
+</section>
+
+
+<script src="scripts.js"></script>
+</body>
+</html>
